@@ -1,0 +1,188 @@
+@import url("fbi/stylesheet.css");
+@import url("futuralight/stylesheet.css");
+html {
+  scroll-behavior: smooth;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color: floralwhite;
+	font-size:20px;
+	height:4000px;
+}
+body::-webkit-scrollbar {width: 5px}
+
+body::-webkit-scrollbar-track {background:black}
+body::-webkit-scrollbar-thumb {background:dodgerblue}
+
+.slider-frame{
+	overflow:hidden;
+	height: 600px;
+	width:1000px;
+	margin-left: 26%;
+	margin-top:20px;
+}
+
+@-webkit-keyframes slide_animation{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:1000px;}
+	30% {left:1000px;}
+	40% {left:2000px;}
+	50% {left:2000px;}
+	60% {left:1000px}
+	70% {left:1000px}
+	80% {left:0}
+	90% {left:0}
+	100%{left:0}
+}
+
+.slide-images{
+	width:3000px;
+	height:600px;
+	margin: 0 0 0 -2000px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 33s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state:running;
+}
+
+.img-container {
+	height: 600px;
+	width:1000px;
+	position: relative;
+	float: left;
+}
+
+li {text-decoration: none;
+    display: block;
+    background-color: black;
+    padding: 0px;
+    text-align: left;
+	font-size:50px;
+}
+
+li a:hover {background-color:gray;
+	text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: black;
+    position: fixed; top: 25%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-family: fbi;
+	font-size:50px;
+	
+}
+
+li a {
+    display: block;
+    color: dodgerblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+
+li a.active {
+  background-color: dodgerblue;
+  color:white;
+}
+
+li a:hover:not(.active) {
+  background-color: dodgerblue;
+  color:white;
+}
+#description 
+{
+    font-size: 40px;
+}
+#navbar {position: absolute; left: -10%; transition:400ms ease; z-index: 5}
+
+#navbar:hover{position:absolute; left: 0%;}
+
+#title {
+    z-index: 4;
+    background-color: floralwhite;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1%;
+	margin-bottom:0%;
+	margin-left:5%;
+	margin-top:0%;
+	font-family: fbi;
+}
+
+#quote {text-align: center; 
+	font-family: futuralight; 
+	background-color:floralwhite;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top:0%;
+	margin-left:5%;
+	font-size:20px;
+
+}
+
+.nike {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: transparent;
+    position: fixed; top:0;
+    height: 25%;
+    text-align: center;
+    font-family: fbi;}
+
+#About-Us {
+    position: absolute;
+    top: 93%;
+    font-family: futuralight;
+    width: 500px;
+	float: left;
+	text-align: left;
+	margin-left:26%;
+	
+}
+
+#image1 {position: absolute; top:93%;}
+
+#Visit-Us 
+{position:absolute;
+	top:139%;
+	width: 500px;
+	font-family:futuralight;
+	text-align:right;
+	margin-left:52%;
+	
+}
+
+#image2 {position:absolute;
+	top: 139%;
+	margin-left:26%;
+	margin-right:0%
+}
+
+#Contact-Us {position:absolute;
+	top:180%;
+	width: 500px;
+	font-family:futuralight;
+	margin-left:26%;
+	float: left;
+	text-align: left;
+}
+
+#image3 {position:absolute; top:180%}
+
+#form {position:absolute; top: 220%;margin-left:16%;margin-right:0%}
+
+iframe {position: absolute; top:15%; width: 50%;margin-left:27%;margin-right: 25%;padding: 0;}
+
+

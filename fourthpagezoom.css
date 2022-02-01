@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import url("file:///fbi/stylesheet.css");
+@import url("file:///futuralight/stylesheet.css");
+
+ 
+body {
+    font-family: fbi;
+    font-size: 20px;
+    text-align: left;
+	text-decoration: none;
+	height:1000px;
+	background-color:black;
+}
+body::-webkit-scrollbar {width: 5px}
+body::-webkit-scrollbar-track {background:black}
+body::-webkit-scrollbar-thumb {background:dodgerblue}
+
+
+li {text-decoration: none;
+    display: block;
+    background-color: black;
+    padding: 0px;
+    text-align: left;
+}
+li a:hover { text-decoration: underline; 
+}
+#title {
+    z-index: 4;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-top: 0%;
+    color: #FFFFFF;
+}
+#quote {text-align: center; font-family: futuralight; background-color:black;padding-top: 2%;padding-bottom: 0%;margin-top:0%;margin-left:5%;color:white;}
+.picture {
+    text-align: left;
+    text-decoration: none;
+
+}
+#description {font-family: futuralight;}
+#cloud {
+  position:absolute;top: 0%;
+  z-index: -2;}
+#cloud2 {position: absolute; top:123%;z-index:-2}
+
+
+body {
+  margin: 0;
+}
+.nike {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: transparent;
+    position: fixed; top:0;
+    height: 25%;
+    text-align: center;
+    font-family: fbi;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: black;
+    position: fixed; top: 25%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-family: fbi;
+	transition-duration: 0.4s
+	
+}
+li a {
+    display: block;
+    color: dodgerblue;
+    padding: 8px 16px;
+    text-decoration: none; transition-duration: 0.4s; 
+}
+li a.active {
+  background-color: dodgerblue;
+  color:white; 
+}
+li a:hover:not(.active) {
+  background-color: dodgerblue;
+  color:white;
+}
+#description {
+    font-size: 40px;
+}
+.gallery {margin-left: 17.0%;margin-right:0%; }
+
+.gallery img { padding: 20px; width: 77%; filter:grayscale(0); transition: 1s; z-index:1}
+
+
+
+#navbar {position: absolute; left: -10%; transition:400ms ease; z-index: 5}
+
+#navbar:hover{position:absolute; left: 0%;}

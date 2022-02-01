@@ -1,0 +1,5 @@
+@import url("../futura italic/stylesheet.css");
+@font-face {
+	font-family: 'fbi';
+	src: url('fbi.ttf') format('truetype');
+}
