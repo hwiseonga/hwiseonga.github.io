@@ -17,30 +17,32 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 
 .slider-frame{
 	overflow:hidden;
-	height: 600px;
-	width:1000px;
+	height: 55.6%;
+	width:52.1%;
 	margin-left: 26%;
-	margin-top:20px;
+	margin-right:21.9%;
+	margin-top:0%;
 }
 
 @-webkit-keyframes slide_animation{
-	0% {left:0px;}
-	10% {left:0px;}
-	20% {left:1000px;}
-	30% {left:1000px;}
-	40% {left:2000px;}
-	50% {left:2000px;}
-	60% {left:1000px}
-	70% {left:1000px}
-	80% {left:0}
-	90% {left:0}
-	100%{left:0}
+	0% {left:0%;}
+	10% {left:0%;}
+	20% {left:100.2%;}
+	30% {left:100.2%;}
+	40% {left:200.4%;}
+	50% {left:200.4%;}
+	60% {left:100.2%;}
+	70% {left:100.2%;}
+	80% {left:0%}
+	90% {left:0%}
+	100%{left:0%}
 }
 
-.slide-images{
-	width:3000px;
-	height:600px;
-	margin: 0 0 0 -2000px;
+.slide-images
+	{
+	width:311.6%;
+	height:55.6%;
+	margin:0 0 0 -200.5%;
 	position: relative;
 	-webkit-animation-name: slide_animation;
 	-webkit-animation-duration: 33s;
@@ -50,8 +52,8 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 }
 
 .img-container {
-	height: 600px;
-	width:1000px;
+	height:55.6%;
+	width:auto;
 	position: relative;
 	float: left;
 }
@@ -78,8 +80,7 @@ ul {
     overflow: auto;
     text-align: center;
     font-family: fbi;
-	font-size:50px;
-	
+	font-size:50px;	
 }
 
 li a {
@@ -106,7 +107,8 @@ li a:hover:not(.active) {
 }
 #navbar {position: absolute; left: -10%; transition:400ms ease; z-index: 5}
 
-#navbar:hover{position:absolute; left: 0%;}
+#navbar:hover{position:absolute; left: 0%;
+}
 
 #title {
     z-index: 4;
@@ -128,8 +130,7 @@ li a:hover:not(.active) {
 	margin-top:0%;
 	margin-left:5%;
 	font-size:20px;
-
-}
+    }
 
 .nike {list-style-type: none;
     margin: 0;
@@ -145,41 +146,58 @@ li a:hover:not(.active) {
     position: absolute;
     top: 93%;
     font-family: futuralight;
-    width: 500px;
-	float: left;
-	text-align: left;
-	margin-left:26%;
-	
+    width: 26%;
+    float: left;
+    text-align: left;
+    margin-left: 26%;
+    margin-right: 22%;
+    font-size: 100%;	
 }
 
-#image1 {position: absolute; top:93%;}
+
 
 #Visit-Us 
 {position:absolute;
 	top:139%;
-	width: 500px;
+	width: 26%;
 	font-family:futuralight;
 	text-align:right;
 	margin-left:52%;
+	margin-right:22%;
 	
+}
+#image1 {
+	position: absolute; 
+	top:93%;
+	width:21%;
+	margin-left:57%;
+	margin-right:22%;
 }
 
 #image2 {position:absolute;
 	top: 139%;
 	margin-left:26%;
-	margin-right:0%
+	margin-right:53%;
+	width:21%;
+}
+#image3 {position:absolute;
+	     top:180%;
+         width:21%;
+		margin-left:57%;
+		margin-right:22%;
 }
 
 #Contact-Us {position:absolute;
 	top:180%;
-	width: 500px;
+	width: 26%;
 	font-family:futuralight;
 	margin-left:26%;
+	margin-right: 52%;
 	float: left;
 	text-align: left;
 }
 
-#image3 {position:absolute; top:180%}
+
 
 #form {position:absolute; top: 220%;margin-left:16%;margin-right:0%}
 
