@@ -4,11 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-	padding: 0;
-	margin: 0;
-	background-color: floralwhite;
-	font-size:20px;
-	height:4000px;
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+    font-size: 20px;
+    height: 2000px;
 }
 body::-webkit-scrollbar {width: 5px}
 
@@ -58,8 +58,8 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 }
 
 .slide-images img {width:52.1vw;
-	height:64vh;
-	}
+					height:64vh;
+}
 
 .img-container {
 	display:flex;
@@ -129,7 +129,7 @@ li a:hover:not(.active) {
     z-index: 4;
     background-color: floralwhite;
     text-align: center;
-    font-size: 50px;
+    font-size:50px;
     padding-top: 1%;
 	margin-bottom:0%;
 	margin-left:5%;
