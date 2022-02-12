@@ -17,27 +17,27 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 
 .slider-frame{
     overflow: hidden;
-    height: 55.6%;
-    width: 52.1%;
-    margin-left: 26%;
-    margin-right: 21.9%;
-    margin-top: 0%;
+    height: 64vh;
+    width: 52.1vw;
+    margin-left: 26vw;
+    margin-right: 21.9vw;
+    margin-top: 0vh;
     position: relative;
-    top: 0%;
+    top: 0vh;
 }
 
 @-webkit-keyframes slide_animation{
-	0% {left:0%;}
-	10% {left:0%;}
-	20% {left:100.2;}
-	30% {left:100.2%;}
-	40% {left:200.4%;}
-	50% {left:200.4%;}
-	60% {left:100.2%;}
-	70% {left:100.2%;}
-	80% {left:0%}
-	90% {left:0%}
-	100%{left:0%}
+	0% {left:0vw;}
+	10% {left:0vw;}
+	20% {left:52.1vw;}
+	30% {left:52.1vw;}
+	40% {left:104.2vw;}
+	50% {left:104.2vw;}
+	60% {left:52.1vw;}
+	70% {left:52.1vw;}
+	80% {left:0vw}
+	90% {left:0vw}
+	100%{left:0vw}
 }
 
 .slide-images
@@ -45,26 +45,31 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 		display:flex;
 		border:0;
 		padding:0;
-	width:311.6%;
-	height:55.6%;
-	margin:0 0 0 -200.5%;
+	width:135.5vw;
+	height:64vw;
+	margin:0vh 0vw 0vh -104.2vw;
 	position: relative;
-		top: 0%;
+		top: 0vh;
 	-webkit-animation-name: slide_animation;
-	-webkit-animation-duration: 11s;
+	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-play-state:running;
 }
 
+.slide-images img {width:52.1vw;
+	height:64vh;
+	}
+
 .img-container {
 	display:flex;
-		border:0;
-		padding:0;
-	height:55.6%;
-	width:311.6%;
+	margin:0;
+		border:0%;
+		padding:0%;
+	height:64vh;
+	width:156.3vw;
 	position: relative;
-	top:0%;
+	top:0vh;
 	float: left;
 }
 
@@ -81,8 +86,8 @@ li a:hover {background-color:gray;
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     width: 15%;
     background-color: black;
     position: fixed; top: 25%;
@@ -212,5 +217,3 @@ li a:hover:not(.active) {
 #form {position:absolute; top: 220%;margin-left:16%;margin-right:0%}
 
 iframe {position: absolute; top:15%; width: 50%;margin-left:27%;margin-right: 25%;padding: 0;}
-
-
