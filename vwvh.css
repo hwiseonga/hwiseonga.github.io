@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-color: floralwhite;
     font-size: 20px;
-    height: 2000px;
+    height: 2500px;
 }
 body::-webkit-scrollbar {width: 5px}
 
@@ -159,7 +159,7 @@ li a:hover:not(.active) {
 
 #About-Us {
     position: absolute;
-    top: 93%;
+    top: 96vh;
     font-family: futuralight;
     width: 26%;
     float: left;
@@ -168,12 +168,18 @@ li a:hover:not(.active) {
     margin-right: 22%;
     font-size: 100%;	
 }
-
+#image1 {
+	position: absolute; 
+	top:98vh;
+	width:21%;
+	margin-left:57%;
+	margin-right:22%;
+}
 
 
 #Visit-Us 
 {position:absolute;
-	top:139%;
+	top:142vh;
 	width: 26%;
 	font-family:futuralight;
 	text-align:right;
@@ -181,29 +187,16 @@ li a:hover:not(.active) {
 	margin-right:22%;
 	
 }
-#image1 {
-	position: absolute; 
-	top:93%;
-	width:21%;
-	margin-left:57%;
-	margin-right:22%;
-}
+
 
 #image2 {position:absolute;
-	top: 139%;
+	top: 144vh;
 	margin-left:26%;
 	margin-right:53%;
 	width:21%;
 }
-#image3 {position:absolute;
-	     top:180%;
-         width:21%;
-		margin-left:57%;
-		margin-right:22%;
-}
-
 #Contact-Us {position:absolute;
-	top:180%;
+	top:185vh;
 	width: 26%;
 	font-family:futuralight;
 	margin-left:26%;
@@ -211,6 +204,14 @@ li a:hover:not(.active) {
 	float: left;
 	text-align: left;
 }
+#image3 {position:absolute;
+	     top:185vh;
+         width:21%;
+		margin-left:57%;
+		margin-right:22%;
+}
+
+
 
 
 
