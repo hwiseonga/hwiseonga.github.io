@@ -101,38 +101,34 @@ li a:hover:not(.active) {
 
 #navbar:hover{position:absolute; left: 0%;}
 
-.nike2 {list-style-type:none;
+.nike2 {list-style-type:none;transition:400ms ease;
     margin: 0;
     padding: 0;
-    width: 5vw;
+    width: 3vw;
     position: fixed;
-	top:60vh;
-	left:10vw;
-	z-index: 5
+	top:43vh;
+	left:4.8vw;
+	z-index: 5;
 }
 .nike2 a:hover {
 	margin:0;
 	padding:0;
-	width:55vw;
+	width:3vw;
 	position:fixed;
-	top:60vh;
-	left:15vw;
+	top:43vh;
+	left:14.0vw;
 	transition:400ms ease;}
+
+#navbar .nike {filter: brightness(0)}
+#navbar:hover .nike {filter:brightness(1)}
 #navbar:hover .nike2{
 	margin:0;
 	padding:0;
-	width:5vw;
+	width:3vw;
 	position:fixed;
-	top:60vh;
-	left:15vw;
-	transition:400ms ease;
-	
-}
-
-
-
-
-
+	top:43vh;
+	left:14.95vw;
+	transition:400ms ease;}
 
 
  
