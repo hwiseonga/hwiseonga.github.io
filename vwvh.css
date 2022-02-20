@@ -42,14 +42,14 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 
 .slide-images
 	{float:left;
-		display:flex;
-		border:0;
-		padding:0;
+	display:flex;
+	border:0;
+	padding:0;
 	width:135.5vw;
 	height:64vw;
 	margin:0vh 0vw 0vh -104.2vw;
 	position: relative;
-		top: 0vh;
+	top: 0vh;
 	-webkit-animation-name: slide_animation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -58,8 +58,7 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 }
 
 .slide-images img {width:52.1vw;
-					height:64vh;
-}
+					height:64vh;}
 
 .img-container {
 	display:flex;
@@ -70,8 +69,7 @@ body::-webkit-scrollbar-thumb {background:dodgerblue}
 	width:156.3vw;
 	position: relative;
 	top:0vh;
-	float: left;
-}
+	float: left;}
 
 li {text-decoration: none;
     display: block;
@@ -218,3 +216,35 @@ li a:hover:not(.active) {
 #form {position:absolute; top: 220%;margin-left:16%;margin-right:0%}
 
 iframe {position: absolute; top:15%; width: 50%;margin-left:27%;margin-right: 25%;padding: 0;}
+
+.nike2 {list-style-type:none;transition:400ms ease;
+    margin: 0;
+    padding: 0;
+    width: 3vw;
+    position: fixed;
+	top:43vh;
+	left:5.0vw;
+	z-index: 5;
+}
+.nike2 a:hover {
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:15vw;
+	transition:400ms ease;
+}
+
+#navbar .nike {filter: brightness(0)}
+#navbar:hover .nike {filter:brightness(1)}
+#navbar:hover .nike2{
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:15vw;
+	transition:400ms ease;
+	}
+
