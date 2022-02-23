@@ -236,8 +236,8 @@ iframe {position: absolute; top:15%; width: 50%;margin-left:27%;margin-right: 25
 	transition:400ms ease;
 }
 
-#navbar .nike {filter: brightness(0)}
-#navbar:hover .nike {filter:brightness(1)}
+#navbar .nike {filter: brightness(0);transition: 300ms ease;transition-delay: 300ms}
+#navbar:hover .nike {filter:brightness(1);transition:1ms}
 #navbar:hover .nike2{
 	margin:0;
 	padding:0;

@@ -107,7 +107,7 @@ li a:hover:not(.active) {
     width: 3vw;
     position: fixed;
 	top:43vh;
-	left:4.8vw;
+	left:5.0vw;
 	z-index: 5;
 }
 .nike2 a:hover {
@@ -116,19 +116,18 @@ li a:hover:not(.active) {
 	width:3vw;
 	position:fixed;
 	top:43vh;
-	left:14.0vw;
-	transition:400ms ease;}
+	left:14.9vw;
+	transition:400ms ease;
+}
 
-#navbar .nike {filter: brightness(0)}
-#navbar:hover .nike {filter:brightness(1)}
+#navbar .nike {filter: brightness(0);transition: 300ms ease;transition-delay: 300ms}
+#navbar:hover .nike {filter:brightness(1);transition:1ms}
 #navbar:hover .nike2{
 	margin:0;
 	padding:0;
 	width:3vw;
 	position:fixed;
 	top:43vh;
-	left:14.95vw;
-	transition:400ms ease;}
-
-
- 
+	left:14.9vw;
+	transition:400ms ease;
+	}
