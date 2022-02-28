@@ -211,6 +211,37 @@ li a:hover:not(.active) {
 
 #form {position:absolute; top: 220%;margin-left:16%;margin-right:0%}
 
-iframe {position: absolute; top:15%; width: 50%;margin-left:27%;margin-right: 25%;padding: 0;}
+iframe {position: absolute; top:15vh; width: 50%;margin-left:27%;margin-right: 25%;padding: 0; overscroll-behavior:auto}
+
+.nike2 {list-style-type:none;transition:400ms ease;
+    margin: 0;
+    padding: 0;
+    width: 3vw;
+    position: fixed;
+	top:43vh;
+	left:4.9vw;
+	z-index: 5;
+}
+.nike2 a:hover {
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:14.9vw;
+	transition:400ms ease;
+}
+
+#navbar .nike {filter: brightness(0);transition: 300ms ease;transition-delay: 300ms}
+#navbar:hover .nike {filter:brightness(1);transition:1ms}
+#navbar:hover .nike2{
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:14.9vw;
+	transition:400ms ease;
+	}
 
 
