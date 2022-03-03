@@ -100,3 +100,34 @@ li a:hover:not(.active) {
 #navbar {position: absolute; left: -10%; transition:400ms ease; z-index: 5}
 
 #navbar:hover{position:absolute; left: 0%;}
+
+.nike2 {list-style-type:none;transition:400ms ease;
+    margin: 0;
+    padding: 0;
+    width: 3vw;
+    position: fixed;
+	top:43vh;
+	left:4.9vw;
+	z-index: 5;
+}
+.nike2 a:hover {
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:14.9vw;
+	transition:400ms ease;
+}
+
+#navbar .nike {filter: brightness(0);transition: 300ms ease;transition-delay: 300ms}
+#navbar:hover .nike {filter:brightness(1);transition:1ms}
+#navbar:hover .nike2{
+	margin:0;
+	padding:0;
+	width:3vw;
+	position:fixed;
+	top:43vh;
+	left:14.9vw;
+	transition:400ms ease;
+	}
